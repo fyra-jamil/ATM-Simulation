@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+  }
+  body {
+    width: 100%;
+    background: linear-gradient(to top, #faead9,#ffffff);
+  }
+
+h1 {
+    color: #fe921f; 
+    font-family: 'Raleway',sans-serif; 
+    font-size: 62px; 
+    font-weight: 800; 
+    line-height: 72px; 
+    text-align: left; 
+    text-transform: uppercase;
+    text-shadow: 2px 2px #ffb361;
+    text-decoration-style: double;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+  }
+
+  h2 {
+    background: #fe921f; 
+    color: #ffffff; 
+    display: inline-block; 
+    font-family: 'Lato', sans-serif; 
+    font-size: 12px; 
+    font-weight: bold; 
+    line-height: 12px; 
+    letter-spacing: 1px; 
+    margin: 0 0 30px; 
+    padding: 10px 15px 8px; 
+    text-transform: uppercase; 
+  }
+
+  #deposit {
+    background: #fe921f; 
+    color: #ffffff; 
+    display: inline-block; 
+    font-family: 'Lato', sans-serif; 
+    font-size: 12px; 
+    font-weight: bold; 
+    line-height: 12px; 
+    letter-spacing: 1px; 
+    margin: 0 0 5px; 
+    padding: 10px 15px 8px; 
+    text-transform: uppercase; 
+  }
+
+ #instruction {
+    background: #ffb361; 
+    color: #ffffff; 
+    border: #ffffff;
+    border-style: double;
+    border-radius: 15px;
+    display: inline-block; 
+    font-family: 'Courier New', sans-serif; 
+    font-size: 12px; 
+    font-weight: bold; 
+    line-height: 12px; 
+    letter-spacing: 1px; 
+    margin: 0 0 5px; 
+    padding: 10px 15px 8px; 
+    text-transform: uppercase; 
+  }
+
+  #submitbutton {
+    pointer-events: auto;
+	cursor: pointer;
+	background: #fe921f; 
+    color: #ffffff; 
+    display: inline-block; 
+    font-family: 'Lato', sans-serif; 
+    font-weight: bold; 
+    line-height: 12px; 
+    letter-spacing: 2px; 
+    margin: 0 0 30px; 
+    padding: 10px 15px 8px; 
+    text-transform: uppercase; 
+    border-radius: 25px;
+    box-shadow: #ffb361;
+  }
+
+  #depositbox {
+    box-decoration-break: slice;
+    box-shadow: #fe921f 0px 1px 4px, #fe921f 0px 0px 0px 3px;
+    padding : 20px;
+  }
